@@ -18,13 +18,21 @@ const NavbarSticky = () => {
 
   return (
     // <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll">
-    <div className="font-roboto -m-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll shadow-lg">
-      <Navbar className="sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4 shadow-lg ">
-        <div className="flex items-center justify-between text-blue-gray-900 p-9">
-          <Typography
+    <div className="font-roboto -m-6 max-h-full w-[calc(100%+48px)] overflow-scroll shadow-lg">
+      <Navbar className="top-0 z-10 h-[104px] rounded-none px-4 py-2 lg:px-8 lg:py-4 shadow-lg fixed w-[105%]">
+        <div className="flex items-center justify-between text-blue-gray-900 p-9 mt-[-20px]">
+          {/* <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer py-1.5 text-bold text-[25px]"
+            className="mr-4 cursor-pointer py-1.5 text-bold text-[45px]"
+          >
+            DickyArdiar
+          </Typography> */}
+          <Typography 
+            className="font-roboto text-[25px] font-bold"
+            as="a"
+            href="#"
+            color="black"
           >
             DickyArdiar
           </Typography>
@@ -35,13 +43,15 @@ const NavbarSticky = () => {
                 variant="text"
                 size="sm"
                 className="hidden lg:inline-block font-sans"
+                onClick={() => window.location.assign('https://www.linkedin.com/in/dicky-ardiar-4460421b6/')}
               >
                 <FaLinkedin className="w-9 h-9" />
               </Button>
               <Button
                 variant="text"
                 size="sm"
-                className="hidden lg:inline-block "
+                className="hidden lg:inline-block"
+                onClick={() => window.location.assign('https://github.com/Dickyrdiar')}
               >
                 <FaGithubSquare className="w-9 h-9" />
               </Button>

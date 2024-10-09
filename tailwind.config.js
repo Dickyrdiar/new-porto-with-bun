@@ -1,15 +1,11 @@
 /* eslint-disable no-undef */
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}', // Adjust the path based on your project structure
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/@material-tailwind/react/**/*.js", // Ensure this line is present
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        roboto: ['Roboto', 'sans-serif'], //
-      }
-    },
+    extend: {},
   },
   plugins: [],
 };
