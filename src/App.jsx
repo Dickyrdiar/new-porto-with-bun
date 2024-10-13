@@ -1,17 +1,27 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+/* eslint-disable no-unused-vars */
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import HeroPage from './components/HeroPage'
 import NavbarSticky from './components/Navbar'
+import CarouselSlider from "./components/Carousel";
 // import './App.css'
 
 function App() {
   // const [count, setCount] = useState(0)
 
+  const images = [
+    'https://via.placeholder.com/600x400?text=Slide+1',
+    'https://via.placeholder.com/600x400?text=Slide+2',
+    'https://via.placeholder.com/600x400?text=Slide+3',
+    'https://via.placeholder.com/600x400?text=Slide+4',
+  ];
+
   return (
     <>
       <NavbarSticky />
       <HeroPage />
+      <CarouselSlider />
+      {/* <Carousel images={images} /> */}
       {/* <div className='flex justify-center text-center items-center h-screen'>
         <div>
           <a href="https://vitejs.dev" target="_blank">

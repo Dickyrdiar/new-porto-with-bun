@@ -25,12 +25,12 @@ const HeroPage = () => {
           </Typography>
         </div>
 
-        <div className="flex w-max gap-4 mt-[14px]">
+        <div className="flex w-max gap-4 mt-[35px]">
           <Button 
             className="border border-gray-300 text-gray-700 py-2 px-4 rounded-lg bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-black-500" 
             variant="outlined"
-            onClick={() => {window.location.href = 'mailto:dickyardiar1@gmail.com'}
-            }
+            onClick={() => {window.location.href = 'mailto:dickyardiar1@gmail.com'}}
+            size="large"
           >
             Contact Me
           </Button>
