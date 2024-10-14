@@ -1,8 +1,8 @@
 import { Octokit } from "@octokit/rest"
 const username = 'Dickyrdiar';
-const GITHUB_TOKEN = "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"
+const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN; 
 
-console.log("token", GITHUB_TOKEN)
+console.log("token")
 
 const octokit = new Octokit({
   auth: GITHUB_TOKEN,
