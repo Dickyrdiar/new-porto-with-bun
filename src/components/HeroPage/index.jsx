@@ -19,9 +19,9 @@ const HeroPage = () => {
           Front End Developer
         </Typography>
 
-        <div className="w-[56%]">
+        <div className="w-[60%]">
           <Typography className="font-roboto text-[15px] mt-2" color="#bfbfbf">
-            As an experienced web developer and passionate about Front End development, I have a strong understanding of modern web development technologies and practices.
+          As an experienced web developer and passionate about Front End development, I have a strong understanding of modern web development technologies and practices and am also very interested in being a goalkeeper in football.
           </Typography>
         </div>
 

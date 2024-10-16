@@ -5,11 +5,7 @@ import autoprefixer from 'autoprefixer'
 import svgr from 'vite-plugin-svgr'
 
 export default defineConfig({
-  plugins: [react(), svgr({
-    svgrOptions: {
-      
-    }
-  })],
+  plugins: [react(), svgr()],
   css: {
     postcss: {
       plugins: [

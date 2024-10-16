@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import HeroPage from './components/HeroPage'
 import NavbarSticky from './components/Navbar'
 import CarouselSlider from "./components/Carousel";
+import Project from "./components/Project";
 // import './App.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <NavbarSticky />
       <HeroPage />
       <CarouselSlider />
+      <Project />
       {/* <Carousel images={images} /> */}
       {/* <div className='flex justify-center text-center items-center h-screen'>
         <div>

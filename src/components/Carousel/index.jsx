@@ -1,14 +1,15 @@
 import Slider from "react-slick";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
+
 const CarouselSlider = () => {
   const settings = {
     infinite: true,
-    speed: 500,
-    slidesToShow: 5,  // Show 5 icons at a time on larger screens
+    speed: 1500,
+    slidesToShow: 4,  // Show 5 icons at a time on larger screens
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 20000,
     arrows: false,  // Hide arrows for a cleaner look
     responsive: [
       {
@@ -33,7 +34,7 @@ const CarouselSlider = () => {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-[22%] mt-[-7%] text-center px-4">
+    <div className="w-full max-w-4xl mx-[23.5%] mt-[-7%] text-center px-4">
       <Slider {...settings}>
         <div className="flex justify-center">
           <FaFacebook className="text-6xl text-blue-600" />
