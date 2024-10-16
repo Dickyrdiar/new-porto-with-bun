@@ -1,5 +1,6 @@
 import Slider from "react-slick";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import PhicosImage from '../../assets/logo-phicos-green.svg'
 
 
 const CarouselSlider = () => {
@@ -37,7 +38,7 @@ const CarouselSlider = () => {
     <div className="w-full max-w-4xl mx-[23.5%] mt-[-7%] text-center px-4">
       <Slider {...settings}>
         <div className="flex justify-center">
-          <FaFacebook className="text-6xl text-blue-600" />
+          <img src={PhicosImage} className="h-40 w-40"/>
         </div>
         <div className="flex justify-center">
           <FaTwitter className="text-6xl text-blue-400" />
