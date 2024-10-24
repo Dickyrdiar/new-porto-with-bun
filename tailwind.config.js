@@ -1,11 +1,17 @@
 /* eslint-disable no-undef */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-    "./node_modules/@material-tailwind/react/**/*.js", // Ensure this line is present
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
+    './node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 };

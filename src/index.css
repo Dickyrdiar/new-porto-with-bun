@@ -5,8 +5,11 @@
 @tailwind utilities;
 
 /* src/index.css */
-@import "@material-tailwind/react/tailwind.css"; /* Ensure this is at the top */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* @import "@material-tailwind/react/tailwind.css"; Ensure this is at the top */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); */
+
+/* You can now use the Roboto font in your Tailwind or custom classes */
+
 
 .roboto-thin {
   font-family: "Roboto", sans-serif;

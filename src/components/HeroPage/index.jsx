@@ -11,7 +11,7 @@ const HeroPage = () => {
           alt="nature image"
         />
 
-         <Typography className="font-roboto text-[20px] mt-2">
+         <Typography className="font-roboto text-[20px] mt-[12px]">
           Available For New Project
         </Typography>
 

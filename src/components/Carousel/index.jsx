@@ -1,5 +1,10 @@
 import Slider from "react-slick";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+// import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import PhicosImage from '../../assets/logo-phicos-green.svg'
+import IstImage from '../../assets/infosys.svg'
+import MuslimPergi from '../../assets/MuslimPergi-new.svg'
+import Qatros from '../../assets/Qatros.svg'
+import Bx from '../../assets/BX.svg'
 
 
 const CarouselSlider = () => {
@@ -34,18 +39,24 @@ const CarouselSlider = () => {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-[23.5%] mt-[-7%] text-center px-4">
+    <div className="w-full max-w-6xl mx-[15%] mt-[-7%] px-2">
       <Slider {...settings}>
-        <div className="flex justify-center">
-          <FaFacebook className="text-6xl text-blue-600" />
+        <div className="flex justify-center mt-[-40px]">
+          <img src={PhicosImage} className="h-40 w-40"/>
         </div>
-        <div className="flex justify-center">
-          <FaTwitter className="text-6xl text-blue-400" />
+        <div className="flex justify-center  mt-[-40px]">
+          <img src={IstImage} className="h-40 w-40" />
         </div>
-        <div className="flex justify-center">
-          <FaInstagram className="text-6xl text-pink-500" />
+        <div className="flex justify-center  mt-[-40px]">
+          <img src={MuslimPergi} className="h-40 w-40" />
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center  mt-[-40px]">
+          <img src={Qatros} className="h-40 w-40" />
+        </div>
+        <div className="flex justify-center  mt-[-40px]">
+          <img src={Bx} className="h-40 w-40" />
+        </div>
+        {/* <div className="flex justify-center">
           <FaLinkedin className="text-6xl text-blue-700" />
         </div>  
         <div className="flex justify-center">
@@ -59,7 +70,7 @@ const CarouselSlider = () => {
         </div>
         <div className="flex justify-center">
           <FaInstagram className="text-6xl text-pink-500" />
-        </div>
+        </div> */}
       </Slider>
     </div>
   );
