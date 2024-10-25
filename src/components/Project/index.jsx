@@ -3,65 +3,20 @@ import { DataProject } from "../../shared/dataProject";
 
 
 const Project = () => {
-  // const username = 'Dickyrdiar';
-  // const [pinnedRepos, setPinnedRepos] = useState([])
-  // const [loading, setLoading] = useState(false)
-
-  // useEffect(() => {
-  //   const fetchingPinnedRepos = async () => {
-  //     setLoading(true)
-  //     try {
-  //       const octokitGraphql = graphql.defaults({
-  //         headers: {
-  //           authorization: `token ${GITHUB_TOKEN}`
-  //         }
-  //       })
-
-  //       const query = `
-  //         query ($username: String!) {
-  //           user(login: $username) {
-  //             pinnedItems(first: 6, types: [REPOSITORY]) {
-  //               nodes {
-  //                 ...on Repository {
-  //                   name
-  //                   description
-  //                   url 
-  //                   stargazerCount
-  //                   forkCount
-  //                 }
-  //               }
-  //             }
-  //           }
-  //         }
-  //       `;
-
-  //       const result = await octokitGraphql(query, {
-  //         username
-  //       })
-
-  //       setPinnedRepos(result?.user?.pinnedItems?.nodes)
-  //     } catch (error) {
-  //       console.log("err", error)
-  //     } finally {
-  //       setLoading(false)
-  //     }
-  //   }; 
-
-  //   fetchingPinnedRepos()
-  // }, [])
-
-  // console.log("loading", loading)
+  const handleClickWeb = (url) => {
+    window.location.assign(url)
+  }
 
   return (
     <>
       <div className="mt-[-320px] flex justify-center items-center h-screen">
       <div className="text-center flex flex-col justify-center items-center">
-        <Typography className="font-roboto text-[35px] font-bold">
+        <Typography className="font-roboto text-[42px] font-bold">
           Selected Project & Work
         </Typography>
 
         <div className="w-[60%]">
-          <Typography className="font-roboto text-[15px] mt-2" color="#bfbfbf">
+          <Typography className="font-roboto text-[17px] mt-2" color="#bfbfbf">
             Explore my curated showcase of the best projects, showcasing innovation, creativity and impact.
           </Typography>
         </div>
@@ -80,7 +35,7 @@ const Project = () => {
 
                   <Typography 
                     className="font-bold text-[18px] mt-5 ml-[20px] text-start cursor-pointer"
-                    onClick={() => window.location.href(val.url)}
+                    onClick={() => handleClickWeb(val.url)}
                   >
                     {val?.label}
                   </Typography>
