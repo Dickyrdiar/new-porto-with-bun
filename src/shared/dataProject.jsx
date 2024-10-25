@@ -2,6 +2,7 @@ import MuslimPergi from '../assets/Image/muslimPergi.svg';
 import VictoriaBank from '../assets/Image/victoria-bank.svg';
 import Qatros from '../assets/Image/qatros.svg'
 import BtnProperty from '../assets/Image/btn-property.svg'
+import BX from '../assets/Image/BX.svg'
 
 export const DataProject = [
   {
@@ -117,6 +118,39 @@ export const DataProject = [
       {
         id: 4,
         name: 'Bootstrap',
+      }, 
+    ]
+  },
+
+  {
+    id: 4,
+    label: 'Broiler X',
+    url: 'https://muslimpergi.com/',
+    image: <img src={BX} alt="Muslim Pergi" />,
+    tags: [
+      {
+        id: 1,
+        name: 'Front End'
+      }, 
+
+      {
+        id: 2,
+        name: 'Web Dev'
+      }, 
+
+      {
+        id: 3,
+        name: 'React JS',
+      }, 
+
+      {
+        id: 3,
+        name: 'Redux',
+      }, 
+
+      {
+        id: 4,
+        name: 'Tailwind',
       }, 
     ]
   }

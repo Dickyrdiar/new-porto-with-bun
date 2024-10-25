@@ -15,22 +15,22 @@ const HeroPage = () => {
           Available For New Project
         </Typography>
 
-        <Typography className="font-roboto text-[35px] font-bold">
+        <Typography className="font-roboto text-[42px] font-bold">
           Front End Developer
         </Typography>
 
         <div className="w-[60%]">
-          <Typography className="font-roboto text-[15px] mt-2" color="#bfbfbf">
-          As an experienced web developer and passionate about Front End development, I have a strong understanding of modern web development technologies and practices and am also very interested in being a goalkeeper in football.
+          <Typography className="font-roboto text-[17px] mt-2" color="#bfbfbf">
+            As an experienced web developer with a passion for Front End development, I have a strong understanding of modern web technologies and practices. Additionally, I am deeply interested in being a football goalkeeper.
           </Typography>
         </div>
 
         <div className="flex w-max gap-4 mt-[35px]">
           <Button 
-            className="border border-gray-300 text-gray-700 py-2 px-4 rounded-lg bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-black-500" 
+            className="border border-gray-300 text-[#ffff] py-2 px-4 rounded-lg bg-black hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-black-500" 
             variant="outlined"
             onClick={() => {window.location.href = 'mailto:dickyardiar1@gmail.com'}}
-            size="large"
+            size="lg"
           >
             Contact Me
           </Button>
