@@ -5,6 +5,8 @@ import HeroPage from './components/HeroPage'
 import NavbarSticky from './components/Navbar'
 import CarouselSlider from "./components/Carousel";
 import Project from "./components/Project";
+import Experience from "./components/Experience";
+import ExplorationProject from "./components/Exploration";
 // import './App.css'
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
       <HeroPage />
       <CarouselSlider />
       <Project />
+      <Experience />
+      <ExplorationProject />
       {/* <Carousel images={images} /> */}
       {/* <div className='flex justify-center text-center items-center h-screen'>
         <div>
