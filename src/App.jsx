@@ -10,14 +10,6 @@ import ExplorationProject from "./components/Exploration";
 // import './App.css'
 
 function App() {
-  // const [count, setCount] = useState(0)
-
-  const images = [
-    'https://via.placeholder.com/600x400?text=Slide+1',
-    'https://via.placeholder.com/600x400?text=Slide+2',
-    'https://via.placeholder.com/600x400?text=Slide+3',
-    'https://via.placeholder.com/600x400?text=Slide+4',
-  ];
 
   return (
     <>
