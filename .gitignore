@@ -32,3 +32,5 @@ Thumbs.db
 ehthumbs.db
 Icon?
 Desktop.ini
+.env
+.ENV
