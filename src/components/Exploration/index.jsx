@@ -63,7 +63,7 @@ const ExplorationProject = () => {
 
         <div className="w-full">
           <Typography className="font-roboto text-[17px] mt-2" color="#bfbfbf">
-            My Web Project, Mobile, micro Front End and Library
+            My Web Project, Mobile, MicroFrontEnd and Library
           </Typography>
         </div>
 
