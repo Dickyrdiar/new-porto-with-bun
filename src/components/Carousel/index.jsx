@@ -6,26 +6,26 @@ const CarouselSlider = () => {
   const settings = {
     infinite: true,
     speed: 1500,
-    slidesToShow: 4,  // Show 5 icons at a time on larger screens
+    slidesToShow: 4, 
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 20000,
-    arrows: false,  // Hide arrows for a cleaner look
+    arrows: false,  
     responsive: [
       {
-        breakpoint: 1024,  // for large tablets and small desktops
+        breakpoint: 1024,  
         settings: {
           slidesToShow: 3,
         }
       },
       {
-        breakpoint: 768,  // for tablets
+        breakpoint: 768, 
         settings: {
           slidesToShow: 2,
         }
       },
       {
-        breakpoint: 480,  // for mobile phones
+        breakpoint: 480,  
         settings: {
           slidesToShow: 1,
         }
