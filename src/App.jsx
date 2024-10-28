@@ -6,6 +6,7 @@ import CarouselSlider from "./components/Carousel";
 import Project from "./components/Project";
 import Experience from "./components/Experience";
 import ExplorationProject from "./components/Exploration";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Project />
       <Experience />
       <ExplorationProject />
+      <Footer />
     </>
   )
 }
