@@ -7,6 +7,8 @@ const Project = () => {
     window.location.assign(url)
   }
 
+  console.log()
+
   return (
     <>
       <div className="mt-[-320px] flex justify-center items-center h-screen">
