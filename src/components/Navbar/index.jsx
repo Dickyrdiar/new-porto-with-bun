@@ -94,14 +94,14 @@ const NavbarSticky = () => {
               size="sm"
               onClick={() => window.location.assign('https://www.linkedin.com/in/dicky-ardiar-4460421b6/')}
             >
-              <FaLinkedin className="w-7 h-7" />
+              <FaLinkedin className="w-20 h-20" />
             </Button>
             <Button
               variant="text"
               size="sm"
               onClick={() => window.location.assign('https://github.com/Dickyrdiar')}
             >
-              <FaGithubSquare className="w-7 h-7" />
+              <FaGithubSquare className="w-20 h-20" />
             </Button>
           </div>
         </MobileNav>
