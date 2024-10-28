@@ -13,19 +13,19 @@ const CarouselSlider = () => {
     arrows: false,  // Hide arrows for a cleaner look
     responsive: [
       {
-        breakpoint: 1024,  // for large tablets and small desktops
+        breakpoint: 1024,  
         settings: {
           slidesToShow: 3,
         }
       },
       {
-        breakpoint: 768,  // for tablets
+        breakpoint: 768, 
         settings: {
           slidesToShow: 2,
         }
       },
       {
-        breakpoint: 480,  // for mobile phones
+        breakpoint: 480,  
         settings: {
           slidesToShow: 1,
         }
