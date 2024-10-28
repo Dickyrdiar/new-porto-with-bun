@@ -3,7 +3,9 @@ import { Button, Typography } from "@material-tailwind/react"
 import { graphql } from "@octokit/graphql";
 import { useEffect, useState } from "react";
 import GithubImage from '../../assets/github-mark/github-mark.svg'
-const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN; 
+const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN_AUTH; 
+
+console.log("token", GITHUB_TOKEN)
 
 const ExplorationProject = () => {
   const username = 'Dickyrdiar';
