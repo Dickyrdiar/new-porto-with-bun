@@ -3,8 +3,75 @@ import VictoriaBank from '../assets/Image/victoria-bank.svg';
 import Qatros from '../assets/Image/qatros.svg'
 import BtnProperty from '../assets/Image/btn-property.svg'
 import BX from '../assets/Image/BX.svg'
+import LandingPageBx from '../assets/landiing-page-BX.svg'
 
 export const DataProject = [
+  {
+    id: 4,
+    label: 'Broiler X Landing Page',
+    url: 'https://www.broilerx.com/',
+    image: <img src={LandingPageBx} alt="Muslim Pergi" />,
+    tags: [
+      {
+        id: 1,
+        name: 'Front End'
+      }, 
+
+      {
+        id: 2,
+        name: 'Web Dev'
+      }, 
+
+      {
+        id: 3,
+        name: 'Next JS',
+      }, 
+
+      {
+        id: 3,
+        name: 'Redux',
+      }, 
+
+      {
+        id: 4,
+        name: 'Tailwind',
+      }, 
+    ]
+  },
+
+  {
+    id: 4,
+    label: 'Broiler X',
+    url: 'https://app.broilerx.com/',
+    image: <img src={BX} alt="Muslim Pergi" />,
+    tags: [
+      {
+        id: 1,
+        name: 'Front End'
+      }, 
+
+      {
+        id: 2,
+        name: 'Web Dev'
+      }, 
+
+      {
+        id: 3,
+        name: 'React JS',
+      }, 
+
+      {
+        id: 3,
+        name: 'Redux',
+      }, 
+
+      {
+        id: 4,
+        name: 'Tailwind',
+      }, 
+    ]
+  },
+
   {
     id: 1,
     label: "Internet Banking Victoria",
@@ -121,37 +188,4 @@ export const DataProject = [
       }, 
     ]
   },
-
-  {
-    id: 4,
-    label: 'Broiler X',
-    url: 'https://muslimpergi.com/',
-    image: <img src={BX} alt="Muslim Pergi" />,
-    tags: [
-      {
-        id: 1,
-        name: 'Front End'
-      }, 
-
-      {
-        id: 2,
-        name: 'Web Dev'
-      }, 
-
-      {
-        id: 3,
-        name: 'React JS',
-      }, 
-
-      {
-        id: 3,
-        name: 'Redux',
-      }, 
-
-      {
-        id: 4,
-        name: 'Tailwind',
-      }, 
-    ]
-  }
 ]
