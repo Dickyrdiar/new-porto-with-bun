@@ -7,6 +7,7 @@ import Project from "./components/Project";
 import Experience from "./components/Experience";
 import ExplorationProject from "./components/Exploration";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Project />
       <Experience />
       <ExplorationProject />
+      <Contact />
       <Footer />
     </>
   )
