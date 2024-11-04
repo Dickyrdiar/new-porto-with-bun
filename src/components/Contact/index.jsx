@@ -2,15 +2,15 @@ import { Button, Typography } from "@material-tailwind/react"
 
 const Contact = () => {
   return (
-    <div className="flex justify-between items-center h-[370px] px-10 mt-[-130px]">
+    <div className="flex flex-col sm:flex-row justify-between items-center h-auto px-4 sm:px-10 md:mt-[-130px]">
       <div className="w-full max-w-[40rem]">
-        <Typography className="font-roboto text-[42px] font-bold">
+        <Typography className="font-roboto text-[32px] sm:text-[42px] font-bold text-center sm:text-left">
           Got an idea about web development? Share with me
         </Typography> 
       </div>
-
-      <div>
-        <Button className="flex items-center gap-4"   onClick={() => {window.location.href = 'mailto:dickyardiar1@gmail.com'}}>
+    
+      <div className="mt-4 sm:mt-0">
+        <Button className="flex items-center gap-4" onClick={() => {window.location.href = 'mailto:dickyardiar1@gmail.com'}}>
           <svg
             width="44"
             height="44"
@@ -29,7 +29,6 @@ const Contact = () => {
         </Button>
       </div>
     </div>
-
   )
 }
 
