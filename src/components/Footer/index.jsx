@@ -2,10 +2,11 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-[#ffff] py-4 bottom-0 w-full">
-      <div className="container mx-auto text-center">
-        {/* <p className="mb-2">Your Company Name</p> */}
-        <p>&copy; {new Date().getFullYear()} Dicky Ardiar Kurniawan</p> 
+    <footer className="bg-white py-4 w-full">
+      <div className="container mx-auto text-center px-4">
+        {/* Uncomment the line below if you want to display your company name */}
+        {/* <p className="mb-2 text-sm md:text-base">Your Company Name</p> */}
+        <p className="text-sm md:text-base">&copy; {new Date().getFullYear()} Dicky Ardiar Kurniawan</p>
       </div>
     </footer>
   );
