@@ -12,7 +12,7 @@ const HeroPage = () => {
           alt="Profile"
         />
 
-<Typography
+        <Typography
           className="font-roboto text-center mt-4 md:mt-6"
           // Responsive text size
           fontSize={
