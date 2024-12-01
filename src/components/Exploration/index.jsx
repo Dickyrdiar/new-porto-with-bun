@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import GithubImage from '../../assets/github-mark/github-mark.svg'
 const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN_AUTH; 
 
-console.log("token", GITHUB_TOKEN)
 
 const ExplorationProject = () => {
   const username = 'Dickyrdiar';
@@ -80,6 +79,13 @@ const ExplorationProject = () => {
                 {val.image}
                 <Typography className="font-bold text-lg mt-5 ml-0 text-start cursor-pointer">
                   {val.name}
+                </Typography>
+
+                <Typography
+                  className="font-roboto text-gray-500 mt-2 text-center"
+                  fontSize={"text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px]"} 
+                >
+                  {val.description === null ? "-" : val.description}
                 </Typography>
               </div>
             ))}
