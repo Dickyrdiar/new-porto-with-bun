@@ -35,8 +35,7 @@ const HeroPage = () => {
         <div className="w-full px-2 md:px-0">
           <Typography
             className="font-roboto text-gray-500 mt-2 text-center"
-            // Responsive text size
-            fontSize={"text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px]"} // Adjust as needed
+            fontSize={"text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px]"} 
           >
             As an experienced web developer with a passion for Front End development,
             I have a strong understanding of modern web technologies and practices.
