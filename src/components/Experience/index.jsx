@@ -23,9 +23,9 @@ const Experience = () => {
             {CarrierPath?.map((val, index) => (
               <TimelineItem key={index} className="mt-2"> 
                 <TimelineConnector />
-                <TimelineHeader className="h-3">
+                <TimelineHeader className="h-3 flex flex-col sm:flex-row items-start sm:items-center">
                   <TimelineIcon />
-                  <Typography variant="h6" color="blue-gray" className="font-roboto text-[18px] sm:text-[20px] lg:text-[25px] font-bold">
+                  <Typography variant="h6" color="blue-gray" className="font-roboto text-[18px] sm:text-[20px] lg:text-[25px] font-bold mt-2 sm:mt-0 sm:ml-2">
                     {val.companyName}
                   </Typography>
                 </TimelineHeader>

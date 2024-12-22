@@ -13,29 +13,20 @@ const HeroPage = () => {
         />
 
         <Typography
-          className="font-roboto text-center mt-4 md:mt-6"
-          // Responsive text size
-          fontSize={
-            "text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px]" // Adjust as needed
-          }
+          className="font-roboto text-center mt-4 md:mt-6 text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px]"
         >
           Available For New Project
         </Typography>
 
         <Typography
-          className="font-roboto text-center font-bold mt-2 md:mt-4"
-          // Responsive text size
-          fontSize={
-            "text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px]" // Adjust as needed
-          }
+          className="font-roboto text-center font-bold mt-2 md:mt-4 text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px]"
         >
           Front End Developer
         </Typography>
 
         <div className="w-full px-2 md:px-0">
           <Typography
-            className="font-roboto text-gray-500 mt-2 text-center"
-            fontSize={"text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px]"} 
+            className="font-roboto text-gray-500 mt-2 text-center text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px]"
           >
             As an experienced web developer with a passion for Front End development,
             I have a strong understanding of modern web technologies and practices.

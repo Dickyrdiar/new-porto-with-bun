@@ -1,4 +1,3 @@
- 
 import { Button, Typography } from "@material-tailwind/react"
 import { graphql } from "@octokit/graphql";
 import { useEffect, useState } from "react";
@@ -63,7 +62,7 @@ const ExplorationProject = () => {
         </Typography>
     
         <div className="w-full">
-          <Typography className="font-roboto text-base mt-2" color="#bfbfbf">
+          <Typography className="font-roboto text-base mt-2 text-[#bfbfbf]">
             My Web Project, Mobile, MicroFrontEnd and Library
           </Typography>
         </div>
@@ -82,8 +81,7 @@ const ExplorationProject = () => {
                 </Typography>
 
                 <Typography
-                  className="font-roboto text-gray-500 mt-2 text-center"
-                  fontSize={"text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px]"} 
+                  className="font-roboto text-gray-500 mt-2 text-center text-[15px] sm:text-[16px] md:text-[17px] lg:text-[18px]"
                 >
                   {val.description === null ? "-" : val.description}
                 </Typography>
