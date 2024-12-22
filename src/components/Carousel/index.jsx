@@ -35,7 +35,7 @@ const CarouselSlider = () => {
   
 
   return (
-    <div className="w-full max-w-6xl mx-[13%] mt-[-7%] px-2">
+    <div className="w-full max-w-6xl mx-auto mt-[-7%] px-2 sm:mx-[5%] md:mx-[10%] lg:mx-[13%]">
     <Slider {...settings}>
       {DataExperience?.map((val) => (
         <div key={val.id} className="flex justify-center mt-[-40px]">
