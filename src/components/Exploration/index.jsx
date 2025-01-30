@@ -42,7 +42,6 @@ const ExplorationProject = () => {
           ...repo,
           image:  <img src={GithubImage} className="h-40 w-40" />
         }))
-        console.log("repo", repositoriesWithImage)
         setPinnedRepos(repositoriesWithImage)
       } catch (error) {
         console.error("Error fetching pinned repositories:", error);
