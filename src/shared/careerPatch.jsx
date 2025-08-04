@@ -1,8 +1,17 @@
 export const CarrierPath = [
   {
     id: 1,
+    companyName: "Mandala Multifinance",
+    yearPath: "February 2025 - present",
+    position: "Front End Developer",
+    location: "Jakarta, Indonesia"
+  }, 
+
+
+  {
+    id: 1,
     companyName: "BroilerX",
-    yearPath: "November 2023 - Present",
+    yearPath: "November 2023 - January 2025",
     position: "Front End Developer",
     location: "Yogyakarta, Indonesia"
   }, 

@@ -1,36 +1,56 @@
-import { 
+import {
   Timeline,
   TimelineItem,
   TimelineConnector,
   TimelineHeader,
   TimelineIcon,
   TimelineBody,
-  Typography 
-} from "@material-tailwind/react"
-import { CarrierPath } from "../../shared/careerPatch"
+  Typography,
+} from "@material-tailwind/react";
+import { CarrierPath } from "../../shared/careerPatch";
 
 const Experience = () => {
   return (
-    <div className="mt-[70px] flex justify-center h-auto lg:h-screen">
-      <div className="container mx-auto p-4 lg:w-[90rem] flex flex-col lg:flex-row justify-between items-center lg:items-start">
-    
-        <Typography className="font-roboto text-[28px] sm:text-[32px] lg:text-[42px] font-bold text-center lg:text-left mb-4 lg:mb-0">
-          Work Experience
-        </Typography>
-    
-        <div className="w-full lg:w-[32rem] mt-6 lg:mt-[30px] grid grid-cols-1 gap-4">
+    <div className="mt-[70px] flex justify-center min-h-[50vh] lg:min-h-screen">
+      <div className="container mx-auto px-4 py-8 lg:py-12 w-full max-w-7xl flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-16">
+        {/* Title Section */}
+        <div className="w-full lg:w-1/3">
+          <Typography className="font-roboto text-3xl sm:text-4xl lg:text-5xl font-bold text-center lg:text-left">
+            Work Experience
+          </Typography>
+        </div>
+
+        {/* Timeline Section */}
+        <div className="w-full lg:w-2/3">
           <Timeline>
             {CarrierPath?.map((val, index) => (
-              <TimelineItem key={index} className="mt-2"> 
+              <TimelineItem key={index}>
                 <TimelineConnector />
-                <TimelineHeader className="h-3 flex flex-col sm:flex-row items-start sm:items-center">
-                  <TimelineIcon />
-                  <Typography variant="h6" color="blue-gray" className="font-roboto text-[18px] sm:text-[20px] lg:text-[25px] font-bold mt-2 sm:mt-0 sm:ml-2">
-                    {val.companyName}
-                  </Typography>
+                <TimelineHeader className="h-auto min-h-[40px] flex flex-col sm:flex-row items-start sm:items-start">
+                  <TimelineIcon className="mt-1" />
+                  <div className="ml-2 sm:ml-4">
+                    <Typography
+                      variant="h6"
+                      color="blue-gray"
+                      className="font-roboto text-lg sm:text-xl lg:text-2xl font-bold leading-snug"
+                    >
+                      {val.companyName}
+                    </Typography>
+                    <Typography
+                      variant="small"
+                      color="gray"
+                      className="font-normal text-gray-600 text-sm sm:text-base lg:text-lg mt-1 block sm:hidden"
+                    >
+                      {val.location} | {val.yearPath} | {val.position}
+                    </Typography>
+                  </div>
                 </TimelineHeader>
-                <TimelineBody className="pb-5">
-                  <Typography variant="small" color="gray" className="font-normal text-gray-600 text-[14px] sm:text-[15px] lg:text-[17px] mt-2">
+                <TimelineBody className="pb-8">
+                  <Typography
+                    variant="small"
+                    color="gray"
+                    className="font-normal text-gray-600 text-sm sm:text-base lg:text-lg mt-1 hidden sm:block"
+                  >
                     {val.location} | {val.yearPath} | {val.position}
                   </Typography>
                 </TimelineBody>
@@ -38,11 +58,9 @@ const Experience = () => {
             ))}
           </Timeline>
         </div>
-    
       </div>
     </div>
-  
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

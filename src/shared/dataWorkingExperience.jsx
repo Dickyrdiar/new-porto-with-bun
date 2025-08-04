@@ -3,8 +3,14 @@ import IstImage from '../assets/infosys.svg'
 import MuslimPergi from '../assets/MuslimPergi-new.svg'
 import Qatros from '../assets/Qatros.svg'
 import Bx from '../assets/BX.svg'
+import Mandala from '../assets/Image/mandala-finance.svg'
 
 export const DataExperience = [
+  {
+    id: 0,
+    image: Mandala
+  },
+
   {
     id: 1,
     image: PhicosImage
