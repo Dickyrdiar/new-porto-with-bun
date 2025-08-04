@@ -4,10 +4,41 @@ import Qatros from '../assets/Image/qatros.svg'
 import BtnProperty from '../assets/Image/btn-property.svg'
 import BX from '../assets/Image/BX.svg'
 import LandingPageBx from '../assets/landiing-page-BX.svg'
+import Mhub from '../assets/mhub.png'
 
 export const DataProject = [
+   {
+    id: 1,
+    label: 'Mantis Hub',
+    url: 'https://dev-mhub.mantis.id/signin',
+    image: <img src={Mhub} alt="Muslim Pergi" />,
+    tags: [
+      {
+        id: 1,
+        name: 'Front End'
+      }, 
+
+      {
+        id: 2,
+        name: 'Web Dev'
+      }, 
+
+      {
+        id: 3,
+        name: 'Redux',
+      }, 
+
+      {
+        id: 4,
+        name: 'Bootstrap UI',
+      }, 
+    ]
+  },
+
+
+
   {
-    id: 4,
+    id: 2,
     label: 'Broiler X Landing Page',
     url: 'https://www.broilerx.com/',
     image: <img src={LandingPageBx} alt="Muslim Pergi" />,
@@ -40,7 +71,7 @@ export const DataProject = [
   },
 
   {
-    id: 4,
+    id: 3,
     label: 'Broiler X',
     url: 'https://app.broilerx.com/',
     image: <img src={BX} alt="Muslim Pergi" />,
@@ -73,7 +104,7 @@ export const DataProject = [
   },
 
   {
-    id: 1,
+    id: 4,
     label: "Internet Banking Victoria",
     url: 'https://ibvimo.victoriabank.co.id/',
     image: <img src={VictoriaBank} className='w-120 h-120' alt="Victoria Bank" />,
@@ -101,7 +132,7 @@ export const DataProject = [
   }, 
 
   {
-    id: 2,
+    id: 5,
     label: 'Qatros Landing Page',
     url: '',
     image: <img src={Qatros} className='w-90 h-90' alt="Victoria Bank" />,
@@ -129,7 +160,7 @@ export const DataProject = [
   }, 
 
   {
-    id: 3,
+    id: 6,
     label: 'BTN Property',
     url: 'https://www.btnproperti.co.id/',
     image: <img src={BtnProperty} alt="Muslim Pergi" />,
@@ -157,7 +188,7 @@ export const DataProject = [
   }, 
 
   {
-    id: 4,
+    id: 7,
     label: 'Muslim Pergi',
     url: 'https://muslimpergi.com/',
     image: <img src={MuslimPergi} alt="Muslim Pergi" />,
